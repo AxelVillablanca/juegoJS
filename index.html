@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Secreto</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="https://www.svgrepo.com/show/355081/js.svg">
+</head>
+<body>
+
+
+    <main>
+
+        <h1>JUEGO JAVASCRIPT</h1>
+
+    <h2>ADIVINA EL NUMERO SECRETO</h2>
+    <p class="parrafo"></p>
+
+        <input id="inputUsuario" type="number" min="1" max="10">
+
+    <div class="botones">
+        <button  id="intento">INTENTAR</button>
+        <button  id="reset" disabled>REINICIAR</button>
+    </div>
+
+    
+  
+    </main>
+  
+    
+    <div id="alerta" class="alerta oculto">
+        <div class="container">
+            <img id="face" class="emojis" alt="emoji">
+        </div>
+        <p id="parrafo_alerta"></p>
+    </div>
+    
+
+    <script src="juego.js"></script>
+</body>
+</html>
