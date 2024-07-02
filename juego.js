@@ -20,7 +20,7 @@ function ocultar(){
 }
 function fallo(){
     mensaje.classList.remove("correcto")
-    let nueva = 'svg/emoji1.svg'
+    let nueva = 'emoji1.svg'
     emoji.src = nueva;
 
     emoji.classList.add('shake');
@@ -32,7 +32,7 @@ function fallo(){
 
 function confeti(){
     mensaje.classList.remove("error")
-    let nueva = 'svg/confeti.svg';
+    let nueva = 'confeti.svg';
     emoji.src= nueva;
 
     emoji.classList.add('aparecer');
